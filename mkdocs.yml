@@ -1,0 +1,37 @@
+site_name: crawlerkit-core
+site_description: Browserless crawler base — transport, TLS/AIA, identity, proxy, captcha, base classes.
+docs_dir: docs
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: ["."]
+          options:
+            docstring_style: google
+
+markdown_extensions:
+  - admonition
+  - tables
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Identity & fingerprint: identity.md
+  - Transport & TLS: transport-tls.md
+  - Proxy: proxy.md
+  - Captcha: captcha.md
+  - Cracking gov.br & Turnstile: cracking-govbr-turnstile.md
+  - Errors & retry: errors.md
+  - API: api.md
