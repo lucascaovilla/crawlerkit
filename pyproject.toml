@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "crawlerkit-core"
-version = "0.1.0"
+version = "0.2.0"
 description = "Browserless crawler base: curl_cffi transport, TLS/AIA, identity, proxy, captcha, BaseCrawler/BaseParser."
 readme = "README.md"
 requires-python = ">=3.11"
