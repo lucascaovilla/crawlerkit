@@ -1,3 +1,9 @@
+## v0.2.2 (2026-06-16)
+
+### Fix
+
+- **release**: re-tag as 0.2.2 — re-pointed v0.2.1 after tagging the wrong commit, and PyPI's filename-reuse policy blocks retrying the same version
+
 ## v0.2.1 (2026-06-16)
 
 ### Fix
