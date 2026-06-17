@@ -67,7 +67,7 @@ class Transport:
         self._log.debug("http", method=method, url=url, proxy=bool(self.proxy.url))
         try:
             return self._session.request(method, url, **kw)
-        except _cffi_exc.RequestsError as e:  # network/curl failure -> transient (retryable)
+        except _cffi_exc.RequestException as e:  # network/curl failure -> transient (retryable)
             raise TransientError(f"{method} {url}: {e}") from e
 
     def get(self, url: str, **kw):

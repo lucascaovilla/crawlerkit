@@ -55,6 +55,7 @@ Issues = "https://github.com/lucascaovilla/crawlerkit/issues"
 dev = [
     "pytest>=8.0",
     "ruff>=0.5",
+    "mypy>=1.10",
     "build>=1.2",
     "twine>=5.0",
     "commitizen>=3.27",
@@ -80,6 +81,26 @@ target-version = "py311"
 [tool.ruff.lint]
 # Pyflakes (real errors: undefined names, unused imports) + isort. Style is not enforced.
 select = ["F", "I"]
+
+[tool.mypy]
+# Targeted at catching "this third-party attribute doesn't actually exist" bugs (e.g. a typo'd
+# exception class name silently shadowing real errors at runtime) — not full type-strictness.
+# attr-defined (mypy's default-enabled check that catches exactly this) stays on; the codes below
+# are disabled because they're systemic curl_cffi/cryptography stub-narrowness (Literal[...]
+# unions, generic return types) being narrower than how this codebase intentionally uses them.
+python_version = "3.11"
+disable_error_code = [
+    "arg-type",
+    "var-annotated",
+    "dict-item",
+    "union-attr",
+    "index",
+    "assignment",
+]
+
+[[tool.mypy.overrides]]
+module = "weasyprint.*"
+ignore_missing_imports = true
 
 [tool.commitizen]
 name = "cz_conventional_commits"

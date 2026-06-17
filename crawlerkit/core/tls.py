@@ -16,6 +16,7 @@ import urllib.request
 import certifi
 from cryptography import x509
 from cryptography.hazmat.primitives import serialization
+from cryptography.hazmat.primitives.serialization import pkcs12
 from cryptography.x509.oid import AuthorityInformationAccessOID, ExtensionOID
 
 _CACHE_DIR = os.environ.get(
@@ -40,7 +41,7 @@ def _ca_issuer_urls(cert: x509.Certificate) -> list[str]:
         return []
     return [
         d.access_location.value
-        for d in aia
+        for d in aia  # type: ignore[attr-defined]  # AuthorityInformationAccess IS iterable at runtime; get_extension_for_oid()'s generic return type just can't be narrowed statically
         if d.access_method == AuthorityInformationAccessOID.CA_ISSUERS
     ]
 
@@ -95,7 +96,7 @@ def client_cert_from_pfx(pfx_path: str, password: str | bytes | None, out_path: 
         password = password.encode()
     with open(pfx_path, "rb") as f:
         data = f.read()
-    key, cert, extra = serialization.pkcs12.load_key_and_certificates(data, password)
+    key, cert, extra = pkcs12.load_key_and_certificates(data, password)
     os.makedirs(_CACHE_DIR, exist_ok=True)
     out_path = out_path or os.path.join(_CACHE_DIR, os.path.basename(pfx_path) + ".pem")
     with open(out_path, "wb") as f:
