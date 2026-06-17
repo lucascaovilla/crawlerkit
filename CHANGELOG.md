@@ -1,3 +1,9 @@
+## v0.2.1 (2026-06-16)
+
+### Fix
+
+- **release**: re-tag as 0.2.1 — 0.1.0/0.2.0 are permanently blocked from re-upload by PyPI's filename-reuse policy after the project was deleted and re-created
+
 ## v0.2.0 (2026-06-16)
 
 ### Feat
