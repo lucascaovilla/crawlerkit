@@ -8,11 +8,8 @@ from abc import ABC, abstractmethod
 from typing import Generic, TypeVar
 from urllib.parse import urlparse
 
-import structlog
-
+from ._logging import get_logger
 from .base_crawler import RawResponse
-
-log = structlog.get_logger(__name__)
 
 #: What ``parse()`` yields — your own model, a dataclass, a ``dict``, anything.
 #: crawlerkit-core stays dependency-free: it never dictates the output type.
@@ -27,13 +24,15 @@ td, th { overflow-wrap: anywhere; }
 """
 
 
-def render_pdf(html: str, base_url: str) -> bytes:
+def render_pdf(html: str, base_url: str, *, enable_logs: bool = False) -> bytes:
     """HTML -> PDF (WeasyPrint, no browser). Fetches remote CSS over a verified, AIA-repaired
     TLS connection (curl_cffi + crawlerkit.core.tls). No `requests`."""
     from curl_cffi import requests as cffi
     from weasyprint import CSS, HTML, default_url_fetcher
 
     from . import tls
+
+    log = get_logger(enable_logs)
 
     def fetcher(url: str, **kw):
         if url.startswith(("http://", "https://")):
@@ -61,6 +60,12 @@ class BaseParser(ABC, Generic[T]):
     (or ``BaseParser[dict]``). ``parse()`` returns ``list[T]``; the type is yours, not the lib's."""
 
     render_pdf_enabled: bool = True
+    enable_logs: bool = False  # opt-in: set True on your subclass to emit structlog logs
+
+    @property
+    def log(self):
+        """structlog logger when ``enable_logs`` is True, else a silent no-op logger."""
+        return get_logger(self.enable_logs)
 
     @abstractmethod
     def parse(self, raw: RawResponse) -> list[T]:
@@ -69,9 +74,9 @@ class BaseParser(ABC, Generic[T]):
     def pdf(self, raw: RawResponse) -> bytes | None:
         if not self.render_pdf_enabled:
             return None
-        return render_pdf(raw.text, base_url=raw.url)
+        return render_pdf(raw.text, base_url=raw.url, enable_logs=self.enable_logs)
 
     def run(self, raw: RawResponse) -> tuple[list[T], bytes | None]:
         items = self.parse(raw)
-        log.info("parse_done", count=len(items))
+        self.log.info("parse_done", count=len(items))
         return items, self.pdf(raw)

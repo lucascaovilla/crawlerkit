@@ -5,16 +5,14 @@ import time
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 
-import structlog
 from bs4 import BeautifulSoup
 
+from ._logging import get_logger
 from .captcha.base import CaptchaRegistry, Challenge, default_registry
 from .errors import BlockedError, PermanentError, TransientError
 from .identity import Profile, pick
 from .proxy import NullProxyProvider, ProxyProvider
 from .transport import Transport
-
-log = structlog.get_logger(__name__)
 
 
 @dataclass
@@ -32,6 +30,7 @@ class BaseCrawler(ABC):
     """
 
     captcha_hint: Challenge | None = None  # known sitekey when the widget isn't inline
+    enable_logs: bool = False  # opt-in: set True on your subclass to emit structlog logs
 
     def __init__(
         self,
@@ -59,11 +58,11 @@ class BaseCrawler(ABC):
         self.proxy = self._proxy_provider.lease()
         self.transport = Transport(
             self.profile, self.proxy, verify=self._verify, client_cert=self._client_cert,
-            timeout=self._timeout,
+            timeout=self._timeout, enable_logs=self.enable_logs,
         )
 
     def _rotate(self) -> None:
-        log.info("rotate_identity_proxy")
+        self.log.info("rotate_identity_proxy")
         self._proxy_provider.release(self.proxy)
         self._build_transport()
 
@@ -77,6 +76,11 @@ class BaseCrawler(ABC):
 
     def __exit__(self, *exc_info) -> None:
         self.close()
+
+    @property
+    def log(self):
+        """structlog logger when ``enable_logs`` is True, else a silent no-op logger."""
+        return get_logger(self.enable_logs)
 
     # --- helpers exposed to flow() ---
     def get(self, url: str, **kw):
@@ -118,21 +122,21 @@ class BaseCrawler(ABC):
         last: Exception | None = None
         for attempt in range(1, self.max_attempts + 1):
             try:
-                log.info("crawl_start", crawler=type(self).__name__, attempt=attempt)
+                self.log.info("crawl_start", crawler=type(self).__name__, attempt=attempt)
                 raw = self.flow(params)
-                log.info("crawl_done", status=raw.status, bytes=len(raw.text))
+                self.log.info("crawl_done", status=raw.status, bytes=len(raw.text))
                 return raw
             except PermanentError:
                 raise
             except BlockedError as e:
                 last = e
-                log.warning("blocked", attempt=attempt, error=str(e))
+                self.log.warning("blocked", attempt=attempt, error=str(e))
                 if attempt < self.max_attempts:
                     self._rotate()
                     self._backoff(attempt)
             except TransientError as e:
                 last = e
-                log.warning("transient", attempt=attempt, error=str(e))
+                self.log.warning("transient", attempt=attempt, error=str(e))
                 if attempt < self.max_attempts:
                     self._backoff(attempt)
         raise last or RuntimeError("crawl failed with no captured error")

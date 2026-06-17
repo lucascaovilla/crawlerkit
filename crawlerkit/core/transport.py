@@ -10,27 +10,26 @@ import random
 import time
 from urllib.parse import urlparse
 
-import structlog
 from curl_cffi import requests as cffi
 from curl_cffi.requests import exceptions as _cffi_exc
 
 from . import tls
+from ._logging import get_logger
 from .errors import TransientError
 from .identity import Profile
 from .proxy import ProxyLease
-
-log = structlog.get_logger(__name__)
 
 
 class Transport:
     def __init__(self, profile: Profile, proxy: ProxyLease, *, verify: bool = True,
                  client_cert: str | None = None, min_interval: float | None = None,
-                 timeout: float = 30.0):
+                 timeout: float = 30.0, enable_logs: bool = False):
         self.profile = profile
         self.proxy = proxy
         self.verify = verify
         self.client_cert = client_cert  # PEM (cert+key) for ICP-Brasil mutual TLS, or None
         self.timeout = timeout  # default per-request timeout; override per-call via get/post(timeout=...)
+        self._log = get_logger(enable_logs)
         # politeness: minimum seconds between requests (+ up to 25% jitter). 0/None = off.
         self.min_interval = float(
             min_interval if min_interval is not None else os.environ.get("CRAWLERKIT_MIN_INTERVAL", 0)
@@ -65,7 +64,7 @@ class Transport:
         if self.client_cert:
             kw.setdefault("cert", self.client_cert)
         self._throttle()
-        log.debug("http", method=method, url=url, proxy=bool(self.proxy.url))
+        self._log.debug("http", method=method, url=url, proxy=bool(self.proxy.url))
         try:
             return self._session.request(method, url, **kw)
         except _cffi_exc.RequestsError as e:  # network/curl failure -> transient (retryable)
