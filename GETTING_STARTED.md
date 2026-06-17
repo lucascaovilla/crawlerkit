@@ -23,7 +23,7 @@ So "use fingerprinting/UA" needs **zero** code. "Use everything" = wire proxy + 
 ```bash
 pip install crawlerkit-core
 # or, in this repo (editable):
-pip install -e packages/crawlerkit-core
+pip install -e .
 ```
 
 ## See it work first
