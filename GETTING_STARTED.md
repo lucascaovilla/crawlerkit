@@ -15,6 +15,7 @@ you call `crawler.run(...)` from your own code — no framework, no extra packag
 | **Captcha** | `captcha_hint` + `solve_captcha()` | wire per target |
 | **Client cert** (mutual TLS) | `client_cert=` | provide a `.pfx` |
 | **Pacing** | `CRAWLERKIT_MIN_INTERVAL` | set env (optional) |
+| **Logging** | `enable_logs = True` on your crawler/parser | off by default |
 
 So "use fingerprinting/UA" needs **zero** code. "Use everything" = wire proxy + captcha (below).
 
@@ -142,6 +143,15 @@ python examples/fingerprint_demo.py
 ```
 The echoed UA matches, and the JA3/JA4/HTTP2 values are a **real Chrome's** (curl_cffi impersonate) — not
 a Python HTTP client's. That is fingerprinting + UA in action, automatically.
+
+## 9. Logging (optional)
+Logging is **off by default** — the library emits nothing unless you ask. Turn it on per class by
+setting `enable_logs = True`:
+```python
+class MyCrawler(BaseCrawler):
+    enable_logs = True            # structlog events: crawl_start/done, blocks, rotations
+```
+The same flag works on a `BaseParser` subclass, and on a standalone `Transport(..., enable_logs=True)`.
 
 ## Checklist
 - [ ] `flow()` returns a `RawResponse` — identity/UA/TLS already applied

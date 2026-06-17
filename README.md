@@ -29,6 +29,16 @@ from crawlerkit.core.errors import BlockedError, TransientError, raise_for_block
 **HTTP is curl_cffi only — `requests` is never used.** Deps: curl_cffi, browserforge, cryptography,
 certifi, selectolax, lxml, beautifulsoup4, weasyprint, structlog.
 
+## Logging
+
+Logging is **opt-in and off by default** — crawlerkit emits nothing unless you ask. Set
+`enable_logs = True` on your crawler or parser to turn on structlog events:
+
+```python
+class MyCrawler(BaseCrawler):
+    enable_logs = True   # default is False
+```
+
 **Build a crawler:** [GETTING_STARTED.md](GETTING_STARTED.md). **Run the demos:**
 [`examples/`](examples/) (`quotes.py` — a full crawl+parse; `fingerprint_demo.py` — identity proof).
 Reference: [`docs/`](docs/) (identity, transport-tls, proxy, captcha, cracking-govbr-turnstile, errors,
