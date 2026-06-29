@@ -1,0 +1,26 @@
+[ntest] form bytes=7028 sitekey=0x4AAAAAADpvM_lNoEdBJ3cR interactive=False
+[sidecar] NET GET https://challenges.cloudflare.com/turnstile/v0/api.js
+[sidecar] parent ready: readyState=complete cfEl=true apiJsBytes=67081
+[sidecar] after api.js: turnstile=object iframes=0 scripts=10 msgL=1
+[sidecar] explicit render -> cf-chl-widget-xsb03
+[sidecar] iframes after render: ["https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/xsb03/0x4AAAAAADpvM_lNoEdBJ3cR/auto/fbE/new/normal?lang=auto"]
+[sidecar] NET GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/xsb03/0x4AAAAAADpvM_lNoEdBJ3cR/
+[sidecar] after write: iwin===contentWindow? true top!==self? true
+[sidecar] CF_FASTTIME: elapsed time compressed x20
+[sidecar] frameElement forced null (was [object HTMLIFrameElement])
+[sidecar] iframe booted: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/xsb03/0x4AAAAAADpvM_lNoEdBJ3cR/auto/fbE/new/normal?lang=auto
+[sidecar] MSG event=init
+[sidecar] MSG event=init
+[sidecar] MSG event=requestExtraParams
+[sidecar] MSG event=extraParams
+[sidecar] MSG event=translationInit
+[sidecar] MSG event=execute
+[sidecar] [webrtc] new RTCPeerConnection {"iceCandidatePoolSize":1,"iceServers":[{"urls":"stun:stun.cloudflare.com:3478"}]}
+[sidecar] [webrtc] .createDataChannel()
+[sidecar] [webrtc] addEventListener icecandidate
+[sidecar] [webrtc] .createOffer()
+[sidecar] [webrtc] .setLocalDescription()
+[sidecar] NET POST /cdn-cgi/challenge-platform/h/b/flow/ov1/1321928355:1782694817:6-yO7FJeTAs2e3jbfkgrt3ZGGVSEyN2GgbmUHEZ4gfM/a13132163cdf5
+[sidecar] iframe state @2s: _cf_chl_opt=72keys lHnIp5=object body=true bodyShadow=false msgL=3
+[sidecar] [webrtc] .close()
+[ntest] CaptchaTimeoutError: no token within 15000ms; iframes booted=1

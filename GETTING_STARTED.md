@@ -82,8 +82,10 @@ class MyCrawler(BaseCrawler):
 - **mCaptcha** — works out of the box.
 - **reCAPTCHA / hCaptcha** — opt-in token adapters: `reg.register(RecaptchaV2Solver(provider))`.
 - **LLM image** — `reg.register(LlmImageSolver(classify=my_vision_model))`.
-- **gov.br / Turnstile** — registered **stubs**: `detect()` works, `solve()` raises a clear TODO until you
-  implement the browserless crack ([cracking guide](docs/cracking-govbr-turnstile.md)).
+- **Turnstile** — engine-backed browserless solver; mints `cf-turnstile-response` once the native V8
+  engine is built, else fails typed ([cracking guide](docs/cracking-turnstile.md)).
+- **gov.br** — registered **stub**: `detect()` works, `solve()` raises a clear TODO until you
+  implement the SSO crack ([cracking guide](docs/cracking-govbr.md)).
 
 ([captcha](docs/captcha.md))
 

@@ -1,0 +1,5 @@
+{
+ "source": "cloudflare-challenge",
+ "widgetId": "dvr12",
+ "event": "requestExtraParams"
+}

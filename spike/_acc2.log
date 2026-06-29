@@ -1,0 +1,44 @@
+{"i":0,"dt":1782661873665,"mark":"realm-instrumented","realm":"PARENT"}
+{"i":1,"dt":1782661873673,"kind":"get","o":"PARENT:document","k":"readyState","ty":"string","v":"complete"}
+{"i":2,"dt":1782661873868,"kind":"get","o":"PARENT:document","k":"readyState","ty":"string","v":"complete"}
+{"i":3,"dt":1782661873876,"kind":"call","o":"PARENT:performance","k":"getEntriesByType","ty":"object","v":"Array(0)","args":["resource"]}
+{"i":4,"dt":1782661873878,"kind":"get","o":"PARENT:document","k":"readyState","ty":"string","v":"complete"}
+{"i":5,"dt":1782661874408,"mark":"realm-instrumented","realm":"PARENT/sub"}
+{"i":6,"dt":1782661874415,"kind":"get","o":"PARENT/sub:document","k":"compatMode","ty":"string","v":"CSS1Compat"}
+{"i":7,"dt":1782661874434,"kind":"get","o":"PARENT/sub:navigator","k":"gpu","ty":"object","v":"[object GPU]"}
+{"i":8,"dt":1782661874434,"kind":"get","o":"PARENT/sub:window","k":"chrome","ty":"object","v":"[object Object]"}
+{"i":9,"dt":1782661874434,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":10,"dt":1782661874434,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":11,"dt":1782661874434,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":12,"dt":1782661874434,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":13,"dt":1782661874434,"kind":"get","o":"PARENT/sub:navigator#probe","k":"sendBeacon","ty":"function","v":"ƒ "}
+{"i":14,"dt":1782661874451,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":15,"dt":1782661874452,"kind":"get","o":"PARENT/sub:document","k":"readyState","ty":"string","v":"complete"}
+{"i":16,"dt":1782661874454,"kind":"call","o":"PARENT/sub:performance","k":"now","ty":"number","v":"54.34765400000015","args":[]}
+{"i":17,"dt":1782661874454,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":18,"dt":1782661874454,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":19,"dt":1782661874454,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":20,"dt":1782661874455,"kind":"get","o":"PARENT/sub:document","k":"readyState","ty":"string","v":"complete"}
+{"i":21,"dt":1782661874456,"kind":"call","o":"PARENT/sub:performance","k":"getEntries","ty":"object","v":"Array(1)","args":[]}
+{"i":22,"dt":1782661874458,"mark":"msg:init"}
+{"i":23,"dt":1782661874461,"mark":"msg:init"}
+{"i":24,"dt":1782661874462,"mark":"msg:requestExtraParams"}
+{"i":25,"dt":1782661874465,"kind":"get","o":"PARENT:document","k":"referrer","ty":"string","v":""}
+{"i":26,"dt":1782661874473,"kind":"get","o":"PARENT:document","k":"title","ty":"string","v":"Consulta de infrações"}
+{"i":27,"dt":1782661874473,"kind":"get","o":"PARENT:document","k":"title","ty":"string","v":"Consulta de infrações"}
+{"i":28,"dt":1782661874474,"kind":"call","o":"PARENT:Element","k":"getBoundingClientRect","ty":"object","v":"[object Object]","el":"DIV","cls":"","dim":"x=16 y=220 w=300 h=65"}
+{"i":29,"dt":1782661874474,"kind":"get","o":"PARENT:window","k":"innerWidth","ty":"number","v":"2560"}
+{"i":30,"dt":1782661874475,"mark":"msg:extraParams"}
+{"i":31,"dt":1782661874475,"kind":"get","o":"PARENT/sub:window","k":"localStorage","ty":"object","v":"[object Storage]"}
+{"i":32,"dt":1782661874475,"kind":"get","o":"PARENT/sub:window","k":"localStorage","ty":"object","v":"[object Storage]"}
+{"i":33,"dt":1782661874476,"kind":"get","o":"PARENT/sub:window","k":"speechSynthesis","ty":"object","v":"[object Object]"}
+{"i":34,"dt":1782661874477,"mark":"msg:translationInit"}
+{"i":35,"dt":1782661874500,"mark":"msg:execute"}
+{"i":36,"dt":1782661874503,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":37,"dt":1782661874503,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":38,"dt":1782661874520,"kind":"get","o":"PARENT/sub:navigator","k":"gpu","ty":"object","v":"[object GPU]"}
+{"i":39,"dt":1782661874521,"kind":"get","o":"PARENT/sub:navigator","k":"gpu","ty":"object","v":"[object GPU]"}
+{"i":40,"dt":1782661874542,"mark":"realm-instrumented","realm":"PARENT/sub/sub"}
+{"i":41,"dt":1782661874553,"kind":"get","o":"PARENT/sub/sub:document","k":"readyState","ty":"string","v":"complete"}
+{"i":42,"dt":1782661874701,"mark":"flow-post","method":"POST","url":"/cdn-cgi/challenge-platform/h/b/flow/ov1/2765374948:1782658820:bajLLtFcCqS41G8Cy8DBFmGlochVYRyhLT25xaPw26g/a12dda0a8b86fa37/kA0Fq60jZYV6QE7pjqaVFNoWG74vYtfXv6Mx1h0EB3g-1782661874-1.2.1.1-ksPbsRZ9fkFVcALHnEou3W30vxrkpNOs2AIgLrhcyFqPTXOlFe0n0VRSWqlN42l8","bodyLen":4290}
+{"i":43,"dt":1782661885461,"mark":"msg:overrunBegin"}

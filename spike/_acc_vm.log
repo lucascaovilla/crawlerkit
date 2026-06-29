@@ -1,0 +1,63 @@
+{"i":0,"dt":1782675856814,"mark":"realm-instrumented","realm":"PARENT"}
+{"i":1,"dt":1782675856816,"kind":"get","o":"PARENT:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":2,"dt":1782675856816,"kind":"get","o":"PARENT:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":3,"dt":1782675856816,"kind":"get","o":"PARENT:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":4,"dt":1782675856816,"kind":"get","o":"PARENT:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":5,"dt":1782675856816,"kind":"get","o":"PARENT:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":6,"dt":1782675856816,"kind":"get","o":"PARENT:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":7,"dt":1782675856824,"kind":"get","o":"PARENT:document","k":"readyState","ty":"string","v":"complete"}
+{"i":8,"dt":1782675856990,"kind":"get","o":"PARENT:document","k":"readyState","ty":"string","v":"complete"}
+{"i":9,"dt":1782675856998,"kind":"call","o":"PARENT:performance","k":"getEntriesByType","ty":"object","v":"Array(0)","args":["resource"]}
+{"i":10,"dt":1782675857000,"kind":"get","o":"PARENT:document","k":"readyState","ty":"string","v":"complete"}
+{"i":11,"dt":1782675857542,"mark":"realm-instrumented","realm":"PARENT/sub"}
+{"i":12,"dt":1782675857542,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":13,"dt":1782675857542,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":14,"dt":1782675857542,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":15,"dt":1782675857542,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":16,"dt":1782675857542,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":17,"dt":1782675857542,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":18,"dt":1782675857549,"kind":"get","o":"PARENT/sub:document","k":"compatMode","ty":"string","v":"CSS1Compat"}
+{"i":19,"dt":1782675857572,"kind":"get","o":"PARENT/sub:navigator","k":"gpu","ty":"object","v":"[object GPU]"}
+{"i":20,"dt":1782675857572,"kind":"get","o":"PARENT/sub:window","k":"chrome","ty":"object","v":"[object Object]"}
+{"i":21,"dt":1782675857572,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":22,"dt":1782675857572,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":23,"dt":1782675857572,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":24,"dt":1782675857572,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":25,"dt":1782675857572,"kind":"get","o":"PARENT/sub:navigator#probe","k":"sendBeacon","ty":"function","v":"ƒ "}
+{"i":26,"dt":1782675857588,"kind":"call","o":"PARENT/sub:performance","k":"now","ty":"number","v":"55.249595","args":[]}
+{"i":27,"dt":1782675857589,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":28,"dt":1782675857589,"kind":"call","o":"PARENT/sub:crypto","k":"getRandomValues","ty":"undefined","v":"undefined","len":128,"out":"3c8257db87f305ece2dff218e65718f81fbdbbf7226ee0b3"}
+{"i":29,"dt":1782675857589,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":30,"dt":1782675857589,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":31,"dt":1782675857589,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":32,"dt":1782675857590,"kind":"get","o":"PARENT/sub:document","k":"readyState","ty":"string","v":"complete"}
+{"i":33,"dt":1782675857592,"kind":"get","o":"PARENT/sub:document","k":"readyState","ty":"string","v":"complete"}
+{"i":34,"dt":1782675857593,"kind":"call","o":"PARENT/sub:performance","k":"getEntries","ty":"object","v":"Array(1)","args":[]}
+{"i":35,"dt":1782675857595,"mark":"msg:init"}
+{"i":36,"dt":1782675857600,"mark":"msg:init"}
+{"i":37,"dt":1782675857600,"mark":"msg:requestExtraParams"}
+{"i":38,"dt":1782675857604,"kind":"get","o":"PARENT:document","k":"referrer","ty":"string","v":""}
+{"i":39,"dt":1782675857610,"kind":"get","o":"PARENT:document","k":"title","ty":"string","v":"Consulta de infrações"}
+{"i":40,"dt":1782675857610,"kind":"get","o":"PARENT:document","k":"title","ty":"string","v":"Consulta de infrações"}
+{"i":41,"dt":1782675857611,"kind":"call","o":"PARENT:Element","k":"getBoundingClientRect","ty":"object","v":"[object Object]","el":"DIV","cls":"","dim":"x=16 y=220 w=300 h=65"}
+{"i":42,"dt":1782675857612,"kind":"get","o":"PARENT:window","k":"innerWidth","ty":"number","v":"2560"}
+{"i":43,"dt":1782675857612,"mark":"msg:extraParams"}
+{"i":44,"dt":1782675857612,"kind":"get","o":"PARENT/sub:window","k":"localStorage","ty":"object","v":"[object Storage]"}
+{"i":45,"dt":1782675857613,"kind":"get","o":"PARENT/sub:window","k":"localStorage","ty":"object","v":"[object Storage]"}
+{"i":46,"dt":1782675857613,"kind":"get","o":"PARENT/sub:window","k":"speechSynthesis","ty":"object","v":"[object Object]"}
+{"i":47,"dt":1782675857614,"mark":"msg:translationInit"}
+{"i":48,"dt":1782675857636,"mark":"msg:execute"}
+{"i":49,"dt":1782675857637,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":50,"dt":1782675857638,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":51,"dt":1782675857652,"kind":"get","o":"PARENT/sub:navigator","k":"gpu","ty":"object","v":"[object GPU]"}
+{"i":52,"dt":1782675857653,"kind":"get","o":"PARENT/sub:navigator","k":"gpu","ty":"object","v":"[object GPU]"}
+{"i":53,"dt":1782675857672,"mark":"realm-instrumented","realm":"PARENT/sub/sub"}
+{"i":54,"dt":1782675857673,"kind":"get","o":"PARENT/sub/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":55,"dt":1782675857673,"kind":"get","o":"PARENT/sub/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":56,"dt":1782675857673,"kind":"get","o":"PARENT/sub/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":57,"dt":1782675857673,"kind":"get","o":"PARENT/sub/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":58,"dt":1782675857673,"kind":"get","o":"PARENT/sub/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":59,"dt":1782675857673,"kind":"get","o":"PARENT/sub/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":60,"dt":1782675857688,"kind":"get","o":"PARENT/sub/sub:document","k":"readyState","ty":"string","v":"complete"}
+{"i":61,"dt":1782675857834,"mark":"flow-post","method":"POST","url":"/cdn-cgi/challenge-platform/h/b/flow/ov1/1794173723:1782673216:2bbT36i8sPMHH2chZ7e_oW0qYnLRni0EUhypRzP83M4/a12f2f6d1ba36d55/iUyCKwAKJHLz5y5_zjimqyawZJpTRQ8b4ZMYbyvF6Os-1782675857-1.2.1.1-bJyegXLBhBBOONMyeRtaPT8085QM3gn2eBkvSpTb9aKIKHwAShRBn8oxZW00rkkV","bodyLen":4204}
+{"i":62,"dt":1782675868601,"mark":"msg:overrunBegin"}

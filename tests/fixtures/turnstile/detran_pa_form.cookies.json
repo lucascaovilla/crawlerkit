@@ -1,0 +1,20 @@
+[
+  {
+    "name": "veio_da_home",
+    "value": "1",
+    "domain": ".detran.pa.gov.br",
+    "path": "/"
+  },
+  {
+    "name": "INGRESSCOOKIE",
+    "value": "1782476210.278.330.81369|04cd0ee6479da4467c69c7f2a9334de9",
+    "domain": "sistemas-renavam.detran.pa.gov.br",
+    "path": "/"
+  },
+  {
+    "name": "JSESSIONID",
+    "value": "3dMpm4B3Gzuxajqs9fjwR9y76JLsosa62GTdAduD.renavam-web-5685bfc575-nq2n6",
+    "domain": "sistemas-renavam.detran.pa.gov.br",
+    "path": "/sistransito/detran-web"
+  }
+]

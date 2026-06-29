@@ -1,0 +1,55 @@
+{"i":0,"dt":1782676358778,"mark":"realm-instrumented","realm":"PARENT"}
+{"i":1,"dt":1782676358786,"kind":"get","o":"PARENT:document","k":"readyState","ty":"string","v":"complete"}
+{"i":2,"dt":1782676358923,"kind":"get","o":"PARENT:document","k":"readyState","ty":"string","v":"complete"}
+{"i":3,"dt":1782676358931,"kind":"call","o":"PARENT:performance","k":"getEntriesByType","ty":"object","v":"Array(0)","args":["resource"]}
+{"i":4,"dt":1782676358933,"kind":"get","o":"PARENT:document","k":"readyState","ty":"string","v":"complete"}
+{"i":5,"dt":1782676359509,"mark":"realm-instrumented","realm":"PARENT/sub"}
+{"i":6,"dt":1782676359516,"kind":"get","o":"PARENT/sub:document","k":"compatMode","ty":"string","v":"CSS1Compat"}
+{"i":7,"dt":1782676359541,"kind":"get","o":"PARENT/sub:navigator","k":"gpu","ty":"object","v":"[object GPU]"}
+{"i":8,"dt":1782676359541,"kind":"get","o":"PARENT/sub:window","k":"chrome","ty":"object","v":"[object Object]"}
+{"i":9,"dt":1782676359542,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":10,"dt":1782676359542,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":11,"dt":1782676359542,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":12,"dt":1782676359542,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":13,"dt":1782676359542,"kind":"get","o":"PARENT/sub:navigator#probe","k":"sendBeacon","ty":"function","v":"ƒ "}
+{"i":14,"dt":1782676359544,"kind":"get","o":"PARENT/sub:window","k":"WebGLRenderingContext","ty":"function","v":"ƒ WebGLRenderingContext"}
+{"i":15,"dt":1782676359544,"kind":"get","o":"PARENT/sub:window","k":"WebGL2RenderingContext","ty":"function","v":"ƒ WebGL2RenderingContext"}
+{"i":16,"dt":1782676359546,"kind":"get","o":"PARENT/sub:window","k":"OffscreenCanvas","ty":"function","v":"ƒ OffscreenCanvas"}
+{"i":17,"dt":1782676359550,"kind":"get","o":"PARENT/sub:window","k":"Notification","ty":"function","v":"ƒ Notification"}
+{"i":18,"dt":1782676359556,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":19,"dt":1782676359556,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":20,"dt":1782676359556,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":21,"dt":1782676359556,"kind":"get","o":"PARENT/sub:window","k":"localStorage","ty":"object","v":"[object Storage]"}
+{"i":22,"dt":1782676359557,"kind":"get","o":"PARENT/sub:window","k":"sessionStorage","ty":"object","v":"[object Storage]"}
+{"i":23,"dt":1782676359560,"kind":"ownKeys","o":"PARENT/sub:navigator","k":"*","keys":["userAgent","appVersion","platform","language","languages","hardwareConcurrency","deviceMemory","webdriver","maxTouchPoints","productSub","vendorSub","pdfViewerEnabled","plugins","mimeTypes","userAgentData","gpu","sendBeacon","javaEnabled"]}
+{"i":24,"dt":1782676359560,"kind":"ownKeys","o":"PARENT/sub:screen","k":"*","keys":["width","availWidth","height","availHeight","colorDepth","pixelDepth"]}
+{"i":25,"dt":1782676359576,"kind":"call","o":"PARENT/sub:performance","k":"now","ty":"number","v":"90.17235700000015","args":[]}
+{"i":26,"dt":1782676359576,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":27,"dt":1782676359577,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":28,"dt":1782676359577,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":29,"dt":1782676359577,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":30,"dt":1782676359578,"kind":"get","o":"PARENT/sub:document","k":"readyState","ty":"string","v":"complete"}
+{"i":31,"dt":1782676359579,"kind":"get","o":"PARENT/sub:document","k":"readyState","ty":"string","v":"complete"}
+{"i":32,"dt":1782676359581,"kind":"call","o":"PARENT/sub:performance","k":"getEntries","ty":"object","v":"Array(1)","args":[]}
+{"i":33,"dt":1782676359588,"mark":"msg:init"}
+{"i":34,"dt":1782676359591,"mark":"msg:init"}
+{"i":35,"dt":1782676359592,"mark":"msg:requestExtraParams"}
+{"i":36,"dt":1782676359595,"kind":"get","o":"PARENT:document","k":"referrer","ty":"string","v":""}
+{"i":37,"dt":1782676359602,"kind":"get","o":"PARENT:document","k":"title","ty":"string","v":"Consulta de infrações"}
+{"i":38,"dt":1782676359602,"kind":"get","o":"PARENT:document","k":"title","ty":"string","v":"Consulta de infrações"}
+{"i":39,"dt":1782676359602,"kind":"call","o":"PARENT:Element","k":"getBoundingClientRect","ty":"object","v":"[object Object]","el":"DIV","cls":"","dim":"x=16 y=220 w=300 h=65"}
+{"i":40,"dt":1782676359603,"kind":"get","o":"PARENT:window","k":"innerWidth","ty":"number","v":"2560"}
+{"i":41,"dt":1782676359603,"mark":"msg:extraParams"}
+{"i":42,"dt":1782676359603,"kind":"get","o":"PARENT/sub:window","k":"localStorage","ty":"object","v":"[object Storage]"}
+{"i":43,"dt":1782676359604,"kind":"get","o":"PARENT/sub:window","k":"localStorage","ty":"object","v":"[object Storage]"}
+{"i":44,"dt":1782676359604,"kind":"get","o":"PARENT/sub:window","k":"speechSynthesis","ty":"object","v":"[object Object]"}
+{"i":45,"dt":1782676359605,"mark":"msg:translationInit"}
+{"i":46,"dt":1782676359627,"mark":"msg:execute"}
+{"i":47,"dt":1782676359629,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":48,"dt":1782676359629,"kind":"get","o":"PARENT/sub:window","k":"crypto","ty":"object","v":"[object Crypto]"}
+{"i":49,"dt":1782676359643,"kind":"get","o":"PARENT/sub:navigator","k":"gpu","ty":"object","v":"[object GPU]"}
+{"i":50,"dt":1782676359644,"kind":"get","o":"PARENT/sub:navigator","k":"gpu","ty":"object","v":"[object GPU]"}
+{"i":51,"dt":1782676359678,"mark":"realm-instrumented","realm":"PARENT/sub/sub"}
+{"i":52,"dt":1782676359690,"kind":"get","o":"PARENT/sub/sub:document","k":"readyState","ty":"string","v":"complete"}
+{"i":53,"dt":1782676359829,"mark":"flow-post","method":"POST","url":"/cdn-cgi/challenge-platform/h/b/flow/ov1/1794173723:1782673216:2bbT36i8sPMHH2chZ7e_oW0qYnLRni0EUhypRzP83M4/a12f3bae2881f1cb/.YFofThYoDXG_he_k6r0pbjTE_JL_A.TqyD3oUWmT3E-1782676359-1.2.1.1-GvvrUCdQ11I7RGr.aDkztqiCpcbfAXsC92b1jmK._IcsjwwnGSxY.j7rRfWTpYRy","bodyLen":4162}
+{"i":54,"dt":1782676370584,"mark":"msg:overrunBegin"}

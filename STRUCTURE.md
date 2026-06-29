@@ -34,7 +34,8 @@ crawlerkit-core/
 │  ├─ transport-tls.md         # transport + TLS/AIA + client certs
 │  ├─ proxy.md                 # proxy providers + rotation
 │  ├─ captcha.md               # the registry + solvers
-│  ├─ cracking-govbr-turnstile.md  # how to implement the two stub solvers
+│  ├─ cracking-turnstile.md    # browserless Turnstile solver (engine-backed)
+│  ├─ cracking-govbr.md        # gov.br SSO stub solver
 │  ├─ errors.md                # error taxonomy + retry/rotation
 │  └─ api.md                   # auto API reference
 ├─ GETTING_STARTED.md          # build-a-crawler walkthrough (flow → parse → run)

@@ -6,6 +6,8 @@ from .base import (
     CaptchaTimeoutError,
     CaptchaUnsolvedError,
     Challenge,
+    ChallengeEngineError,
+    InteractiveChallengeError,
     Solved,
     UnsupportedCaptcha,
     default_registry,
@@ -14,7 +16,7 @@ from .govbr import GovBrSolver
 from .llm_image import LlmImageSolver
 from .mcaptcha import McaptchaPowSolver, mcaptcha_hint
 from .token_adapters import HcaptchaSolver, RecaptchaV2Solver, RecaptchaV3Solver, TokenProvider
-from .turnstile import TurnstileSolver
+from .turnstile import TurnstileSolver, turnstile_hint
 
 __all__ = [
     "Challenge",
@@ -26,14 +28,18 @@ __all__ = [
     "CaptchaTimeoutError",
     "CaptchaUnsolvedError",
     "CaptchaNotImplementedError",
+    "InteractiveChallengeError",
+    "ChallengeEngineError",
     "CaptchaRegistry",
     "default_registry",
     # own solvers
     "McaptchaPowSolver",
     "mcaptcha_hint",
     "LlmImageSolver",
-    # browserless stubs (TODO crack)
+    # browserless Turnstile (engine-backed; needs the native ext to mint tokens)
     "TurnstileSolver",
+    "turnstile_hint",
+    # browserless stub (TODO crack)
     "GovBrSolver",
     # optional token-adapters (opt-in)
     "TokenProvider",

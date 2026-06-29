@@ -41,5 +41,5 @@ class MyCrawler(BaseCrawler):
 
 **Build a crawler:** [GETTING_STARTED.md](GETTING_STARTED.md). **Run the demos:**
 [`examples/`](examples/) (`quotes.py` — a full crawl+parse; `fingerprint_demo.py` — identity proof).
-Reference: [`docs/`](docs/) (identity, transport-tls, proxy, captcha, cracking-govbr-turnstile, errors,
-api). License: MIT.
+Reference: [`docs/`](docs/) (identity, transport-tls, proxy, captcha, cracking-turnstile,
+cracking-govbr, errors, api). License: MIT.

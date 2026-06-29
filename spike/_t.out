@@ -1,0 +1,22 @@
+[ntest] form bytes=7028 sitekey=0x4AAAAAADpvM_lNoEdBJ3cR interactive=False
+[sidecar] access recorder installed on realm PARENT
+[sidecar] NET GET https://challenges.cloudflare.com/turnstile/v0/api.js
+[sidecar] parent ready: readyState=complete cfEl=true apiJsBytes=67081
+[sidecar] after api.js: turnstile=object iframes=0 scripts=10 msgL=1
+[sidecar] explicit render -> cf-chl-widget-rnqvq
+[sidecar] iframes after render: ["https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/rnqvq/0x4AAAAAADpvM_lNoEdBJ3cR/auto/fbE/new/normal?lang=auto"]
+[sidecar] NET GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/rnqvq/0x4AAAAAADpvM_lNoEdBJ3cR/
+[sidecar] access recorder installed on realm PARENT/sub
+[sidecar] after write: iwin===contentWindow? true top!==self? true
+[sidecar] iframe booted: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/rnqvq/0x4AAAAAADpvM_lNoEdBJ3cR/auto/fbE/new/normal?lang=auto
+[sidecar] MSG event=init
+[sidecar] MSG event=init
+[sidecar] MSG event=requestExtraParams
+[sidecar] MSG event=extraParams
+[sidecar] MSG event=translationInit
+[sidecar] MSG event=execute
+[sidecar] access recorder installed on realm PARENT/sub/sub
+[sidecar] NET POST /cdn-cgi/challenge-platform/h/b/flow/ov1/2349346054:1782644418:iNQfVvNhtBDmzLJ7QKiqtJUP0mFPA05g0xhWZkVOPHI/a12c74f07bd7f
+[sidecar] iframe state @2s: _cf_chl_opt=72keys lHnIp5=object body=true bodyShadow=false msgL=3
+[sidecar] MSG event=overrunBegin
+[ntest] CaptchaTimeoutError: no token within 15000ms; iframes booted=1

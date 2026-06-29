@@ -36,9 +36,9 @@ reg.register(RecaptchaV2Solver(provider)).register(HcaptchaSolver(provider))
 an adapter around an existing 2captcha/anticaptcha client. The crawler supplies `params["url"]`.
 
 ## gov.br & Turnstile — browserless stubs
-`GovBrSolver` and `TurnstileSolver` are registered so **detection works**, but `solve()` is a documented
-`# TODO` that raises `NotImplementedError` until you implement the browserless crack. See
-[Cracking gov.br & Turnstile](cracking-govbr-turnstile.md).
+`TurnstileSolver` is engine-backed (it runs the challenge JS in V8; it needs the native engine to mint
+tokens, else fails typed). `GovBrSolver` is a documented stub whose `solve()` raises until you implement
+the SSO crack. See [Cracking Turnstile](cracking-turnstile.md) and [Cracking gov.br SSO](cracking-govbr.md).
 
 ## Writing a solver
 ```python

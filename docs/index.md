@@ -22,7 +22,7 @@ demos live in `examples/` (`quotes.py`, `fingerprint_demo.py`).
 
 ## Reference
 - [Identity & fingerprint](identity.md) · [Transport & TLS](transport-tls.md) · [Proxy](proxy.md)
-- [Captcha](captcha.md) · [Cracking gov.br & Turnstile](cracking-govbr-turnstile.md) · [Errors & retry](errors.md)
+- [Captcha](captcha.md) · [Cracking Turnstile](cracking-turnstile.md) · [Cracking gov.br SSO](cracking-govbr.md) · [Errors & retry](errors.md)
 - [API reference](api.md)
 
 License: MIT.

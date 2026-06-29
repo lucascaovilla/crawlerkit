@@ -89,10 +89,14 @@ class BaseCrawler(ABC):
     def post(self, url: str, **kw):
         return self.transport.post(url, **kw)
 
-    def solve_captcha(self, source) -> str | None:
+    def solve_captcha(self, source, *, hint: Challenge | None = None) -> str | None:
         """detect+solve; returns a token, None (no challenge), or raises a CaptchaError
-        (UnsupportedCaptcha / CaptchaServiceError / CaptchaNotImplementedError, etc.)."""
-        solved = self.registry.solve(source, self.transport, hint=self.captcha_hint)
+        (UnsupportedCaptcha / CaptchaServiceError / CaptchaNotImplementedError, etc.).
+
+        Pass a per-call ``hint`` when it can't be the static ``captcha_hint`` class attribute —
+        e.g. Turnstile, whose hint is dynamic (it carries the just-fetched page URL + HTML). The
+        per-call hint wins; otherwise it falls back to ``self.captcha_hint``."""
+        solved = self.registry.solve(source, self.transport, hint=hint or self.captcha_hint)
         return solved.token if solved else None
 
     def hidden_fields(self, html: str) -> dict:

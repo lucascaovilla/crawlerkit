@@ -1,0 +1,11 @@
+{
+  "name": "crawlerkit-turnstile-sidecar",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Browserless Node+jsdom+V8 engine for Cloudflare Turnstile (driven by crawlerkit over stdio).",
+  "dependencies": {
+    "canvas": "^3.2.3",
+    "jsdom": "^26.0.0"
+  }
+}

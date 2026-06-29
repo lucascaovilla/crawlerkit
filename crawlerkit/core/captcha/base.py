@@ -62,6 +62,28 @@ class CaptchaNotImplementedError(CaptchaError):
     """Detected, but this solver's `solve()` is a stub — fails loudly, never silently."""
 
 
+class InteractiveChallengeError(CaptchaError):
+    """The widget escalated to a real interactive challenge (a click/puzzle the browserless
+    solver does not fake). The caller should route to a fallback (LLM solver, external service,
+    or a real browser). Never paired with a fabricated token."""
+
+    def __init__(self, message: str, *, sitekey: str | None = None, page_url: str | None = None):
+        super().__init__(message)
+        self.sitekey = sitekey
+        self.page_url = page_url
+
+
+class ChallengeEngineError(CaptchaError):
+    """The JS challenge engine could not run the challenge to a token — e.g. the native
+    extension isn't built/installed, or a Cloudflare rotation broke the faked environment.
+    Loud, with enough context (sitekey, page_url) to debug."""
+
+    def __init__(self, message: str, *, sitekey: str | None = None, page_url: str | None = None):
+        super().__init__(message)
+        self.sitekey = sitekey
+        self.page_url = page_url
+
+
 @runtime_checkable
 class Solver(Protocol):
     kind: str
@@ -91,13 +113,30 @@ class CaptchaRegistry:
         return None
 
     def solve(self, source, transport, *, hint: Optional[Challenge] = None) -> Optional[Solved]:
-        challenge = self.detect(source) or hint
+        challenge = self._resolve(self.detect(source), hint)
         if challenge is None:
             return None
         solver = self._solvers.get(challenge.kind)
         if solver is None:
             raise UnsupportedCaptcha(challenge.kind)
         return solver.solve(challenge, transport)
+
+    @staticmethod
+    def _resolve(detected: Optional[Challenge], hint: Optional[Challenge]) -> Optional[Challenge]:
+        """Combine a detected challenge with a caller hint.
+
+        `detect()` only sees HTML text, so for an inline widget it yields just what's in the
+        markup (e.g. a sitekey) — it can't know the page URL or carry the raw HTML. The hint
+        supplies exactly that missing context. When both are the SAME kind, merge them so the
+        hint's context survives while detect's freshly-scraped values win where present (e.g. a
+        rotated sitekey). When there's no hint (or a different kind), prefer detected, else hint —
+        identical to the old `detect(source) or hint`."""
+        if detected is None:
+            return hint
+        if hint is None or hint.kind != detected.kind:
+            return detected
+        merged = {**hint.params, **{k: v for k, v in detected.params.items() if v is not None}}
+        return Challenge(kind=detected.kind, params=merged)
 
 
 def default_registry() -> CaptchaRegistry:

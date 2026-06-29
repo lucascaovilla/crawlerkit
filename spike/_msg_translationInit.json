@@ -1,0 +1,10 @@
+{
+ "source": "cloudflare-challenge",
+ "widgetId": "dvr12",
+ "event": "translationInit",
+ "displayLanguage": "pt-br",
+ "displayRtl": false,
+ "translationData": {
+  "turnstile_iframe_alt": "Widget contendo um desafio de segurança da Cloudflare"
+ }
+}

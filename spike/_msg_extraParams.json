@@ -1,0 +1,49 @@
+{
+ "apiJsMismatchReloadAttempts": 0,
+ "apiJsMismatchReloadCompletedCount": 0,
+ "appearance": "always",
+ "au": "https://challenges.cloudflare.com/turnstile/v0/api.js",
+ "ch": "25e6c66701a0",
+ "event": "extraParams",
+ "execution": "render",
+ "expiry-interval": 290000,
+ "language": "auto",
+ "rcV": "",
+ "refresh-expired": "auto",
+ "refresh-timeout": "auto",
+ "retry": "auto",
+ "retry-interval": 8000,
+ "source": "cloudflare-challenge",
+ "timeExtraParamsMs": 494,
+ "timeInitMs": 470,
+ "timeLoadInitMs": 651,
+ "timeParamsMs": 4,
+ "timeRenderMs": 7,
+ "timeTiefMs": 13,
+ "upgradeAttempts": 0,
+ "upgradeCompletedCount": 0,
+ "url": "https://sistemas-renavam.detran.pa.gov.br/sistransito/detran-web/servicos/infracao/indexConsultaInfracao.jsf",
+ "widgetId": "dvr12",
+ "wPr": {
+  "d.cT": [],
+  "ht.atrs": [
+   "xmlns"
+  ],
+  "pg.ref": "",
+  "pi": {
+   "ffp": "m:post|f:7|htthssh",
+   "ii": false,
+   "lH": "https://sistemas-renavam.detran.pa.gov.br/sistransito/detran-web/servicos/infracao/indexConsultaInfracao.jsf",
+   "mL": 3,
+   "pfp": "htm_xm>hea_id>-ttit>-tmet_ch>-tmet_na_co>-tmet_ht_co>scr_ty_sr>scr_ty_sr>scr_ty_sr>scr_ty_sr>scr_ty_sr>scr_ty_sr>scr_ty_sr>-tscr_sr_as_de>-tscr_ty>lin_ty_re_hr>lin_ty_re_hr>lin_ty_re_hr>lin_ty_re_hr>lin_ty_re_hr>scr>-tbod>-tmai_cl>-tifr_ar_st>",
+   "sL": 10,
+   "sR": true,
+   "ssL": 0,
+   "t": "21|2578580623",
+   "tL": 55,
+   "wp": "220|316",
+   "xp": "/mai[1]/div[3]/for[1]/div[3]/div[1]/div[1]"
+  },
+  "w.iW": 2560
+ }
+}

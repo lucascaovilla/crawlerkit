@@ -1,0 +1,1588 @@
+[
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/2",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint"
+  ],
+  "perf_res": 1,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 600,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1234
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/2",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/d/a12",
+   "mark|TVtK8a12deec3ff3ef3bf"
+  ],
+  "perf_res": 4,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 1500,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1235
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/2",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/d/a12",
+   "mark|TVtK8a12deec3ff3ef3bf"
+  ],
+  "perf_res": 4,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 2500,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1235
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch/2",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/d/a12",
+   "mark|TVtK8a12deec3ff3ef3bf",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/"
+  ],
+  "perf_res": 5,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 3300,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1236
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch7e",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/"
+  ],
+  "perf_res": 2,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 600,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1235
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch7e",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a",
+   "resource|https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/",
+   "mark|TVtK8a12def17b8ddffa8",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/d/a12"
+  ],
+  "perf_res": 5,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 1500,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1235
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch7e",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a",
+   "resource|https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/",
+   "mark|TVtK8a12def17b8ddffa8",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/d/a12",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/"
+  ],
+  "perf_res": 6,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 2500,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1236
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch7e",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a",
+   "resource|https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/",
+   "mark|TVtK8a12def17b8ddffa8",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/d/a12",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/"
+  ],
+  "perf_res": 6,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 3300,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1236
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch_L",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/",
+   "long-animation-frame|long-animation-frame"
+  ],
+  "perf_res": 2,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 600,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1235
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch_L",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a",
+   "mark|TVtK8a12def637aa4ffa8",
+   "long-animation-frame|long-animation-frame"
+  ],
+  "perf_res": 3,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 1500,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1235
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch_L",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a",
+   "mark|TVtK8a12def637aa4ffa8",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/d/a12",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/"
+  ],
+  "perf_res": 5,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 2500,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1236
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch_L",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a",
+   "mark|TVtK8a12def637aa4ffa8",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/d/a12",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/"
+  ],
+  "perf_res": 5,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 3300,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1236
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch3X",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/"
+  ],
+  "perf_res": 2,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 600,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1235
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch3X",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a",
+   "mark|TVtK8a12defaf1ab0ffa8",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/d/a12",
+   "long-animation-frame|long-animation-frame",
+   "long-animation-frame|long-animation-frame"
+  ],
+  "perf_res": 4,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 1500,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1235
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch3X",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a",
+   "mark|TVtK8a12defaf1ab0ffa8",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/d/a12",
+   "long-animation-frame|long-animation-frame",
+   "long-animation-frame|long-animation-frame",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/"
+  ],
+  "perf_res": 5,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 2500,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1236
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rch3X",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a",
+   "mark|TVtK8a12defaf1ab0ffa8",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/d/a12",
+   "long-animation-frame|long-animation-frame",
+   "long-animation-frame|long-animation-frame",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/"
+  ],
+  "perf_res": 5,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 3300,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1236
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rchoO",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint"
+  ],
+  "perf_res": 1,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 600,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1234
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rchoO",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/d/a12",
+   "mark|TVtK8a12deffb4c54ffa8"
+  ],
+  "perf_res": 4,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 1500,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1235
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rchoO",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/d/a12",
+   "mark|TVtK8a12deffb4c54ffa8",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/"
+  ],
+  "perf_res": 5,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 2500,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1236
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rchoO",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/d/a12",
+   "mark|TVtK8a12deffb4c54ffa8",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/"
+  ],
+  "perf_res": 5,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 3300,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1236
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rchRz",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/"
+  ],
+  "perf_res": 2,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 600,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1235
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rchRz",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a"
+  ],
+  "perf_res": 4,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 1500,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1235
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rchRz",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/d/a12",
+   "mark|TVtK8a12df04769e3ffa8",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/"
+  ],
+  "perf_res": 6,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 2500,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1236
+ },
+ {
+  "chrome_keys": [
+   "loadTimes",
+   "csi",
+   "app"
+  ],
+  "compatMode": "CSS1Compat",
+  "depth": 1,
+  "devmem": 8,
+  "gpu_chain": [
+   "[object GPU]",
+   "[object GPU]",
+   "[object Object]"
+  ],
+  "gpu_keys": [],
+  "gpu_tostr": "[object GPU]",
+  "href": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/ov2/av0/rchRz",
+  "hwc": 4,
+  "maxTouch": 0,
+  "perf_entries": [
+   "navigation|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turns",
+   "visibility-state|visible",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1",
+   "paint|first-paint",
+   "paint|first-contentful-paint",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/",
+   "long-animation-frame|long-animation-frame",
+   "resource|https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/d/a12",
+   "mark|TVtK8a12df04769e3ffa8",
+   "resource|https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/flow/"
+  ],
+  "perf_res": 6,
+  "platform": "Linux x86_64",
+  "readyState": "complete",
+  "src_appendChild": "function appendChild() { [native code] }",
+  "src_attachShadow": "function attachShadow() { [native code] }",
+  "src_createElement": "function createElement() { [native code] }",
+  "src_fetch": "function fetch() { [native code] }",
+  "src_funcToStr": "function toString() { [native code] }",
+  "src_getRandom": "function getRandomValues() { [native code] }",
+  "src_xhrOpen": "function open() { [native code] }",
+  "subtle": true,
+  "tag": 3300,
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "uadata": {
+   "brands": [
+    {
+     "brand": "Not(A:Brand",
+     "version": "8"
+    },
+    {
+     "brand": "Chromium",
+     "version": "144"
+    },
+    {
+     "brand": "Google Chrome",
+     "version": "144"
+    }
+   ],
+   "mobile": false,
+   "platform": "Linux"
+  },
+  "webdriver": false,
+  "win_chrome": true,
+  "win_ownprops": 1236
+ }
+]
